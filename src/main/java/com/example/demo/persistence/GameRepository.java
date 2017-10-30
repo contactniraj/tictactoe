@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.persistence;
 
+import com.example.demo.model.Game;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

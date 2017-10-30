@@ -1,6 +1,8 @@
-package com.example.demo;
+package com.example.demo.exceptions;
 
 import com.example.demo.exceptions.GameException;
+import com.example.demo.model.Game;
+import com.example.demo.model.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

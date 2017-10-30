@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,16 +14,16 @@ public class Response {
     Player currentPlayer;
     Player nextPlayer;
     String message;
-    Response(Player winner, char[][] board, String error){
+    public Response(Player winner, char[][] board, String error){
         this.winner = winner;
         this.board = board;
         this.error = error;
     }
-    Response(Player winner, char[][] board){
+    public Response(Player winner, char[][] board){
         this.winner = winner;
         this.board = board;
     }
-    Response(Player winner, char[][] board, String error, Player currentPlayer, Player nextPlayer){
+    public Response(Player winner, char[][] board, String error, Player currentPlayer, Player nextPlayer){
         this.winner = winner;
         this.board = board;
         this.error = error;

@@ -1,7 +1,6 @@
 package com.example.demo.exceptions;
 
-import com.example.demo.Game;
-import com.example.demo.Response;
+import com.example.demo.model.Game;
 import lombok.Getter;
 
 

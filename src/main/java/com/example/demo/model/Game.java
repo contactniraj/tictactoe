@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.model;
 
 import com.example.demo.exceptions.GameException;
 import lombok.EqualsAndHashCode;
@@ -7,7 +7,6 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @EqualsAndHashCode(exclude={"board", "gameSteps"})
 public class Game {

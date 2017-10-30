@@ -1,7 +1,10 @@
-package com.example.demo;
+package com.example.demo.controller;
 
+import com.example.demo.*;
 import com.example.demo.exceptions.GameException;
 import com.example.demo.exceptions.NoGameException;
+import com.example.demo.model.*;
+import com.example.demo.persistence.GameRepository;
 import com.google.gson.Gson;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +12,6 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.client.RestTemplate;
-
-import javax.annotation.PostConstruct;
 
 
 @Controller

@@ -7,15 +7,15 @@ import lombok.ToString;
 @ToString
 public class SlackCommand {
 
-    String token;
-    String team_id;
-    String team_domain;
-    String channel_id;
-    String channel_name;
-    String user_id;
-    String user_name;
-    String command;
-    String text;
-    String response_url;
-    String trigger_id;
+    public String token;
+    public String team_id;
+    public String team_domain;
+    public String channel_id;
+    public String channel_name;
+    public String user_id;
+    public String user_name;
+    public String command;
+    public String text;
+    public String response_url;
+    public String trigger_id;
 }
